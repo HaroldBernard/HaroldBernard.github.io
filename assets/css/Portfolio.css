@@ -1,0 +1,40 @@
+title {
+    background-color: #4aaaa5
+}
+body {
+    background: lightgrey;
+    width: 960px;
+    align: center;
+}
+.main {
+    background: white;
+    width: 960px;
+    height: 100%;
+}
+h1, h2 {
+    color: #4aaaa5
+}
+.navbar {
+    width: 960px;
+    background: white;
+    border-color: #cccccc;
+    
+}
+p {
+    color: #777777;
+}
+div.myName {
+    text-align: left;
+    color: white;
+    background: #4aaaa5;
+    font-size: 24px;
+    padding: 
+}
+.links {
+    vertical-align: middle;
+    text-align: right;
+}
+footer {
+    color: white;
+    background: rgb(100, 99, 99);
+}
