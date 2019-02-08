@@ -1,0 +1,99 @@
+title {
+    background-color: #4aaaa5
+}
+header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background: white;
+    border-bottom: 2px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    width: 960px;
+}
+body {
+    background-image: url(../images/gaming-pattern.png);
+    display: flex;
+    justify-content: center;
+}
+.main {
+    background: white;
+    overflow: auto;
+    width: 960px;
+    height: 100%;
+    border: 1px solid #cccccc;
+    margin-top: 150px;
+    margin-bottom: 48px;
+    padding-bottom: 12px;
+}
+h1, h2 {
+    color: #4aaaa5;
+    margin-left: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+p {
+    color: #777777;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif
+}
+div.myName {
+    text-align: left;
+    color: white;
+    background: #4aaaa5;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 24px
+}
+ul {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 0px;
+    margin: 0px;
+}
+li div {
+    float: left
+}
+li a {
+    float: right;
+    margin: 32px 0px 24px 24px;
+    padding-right: 16px;
+    text-decoration-line: none;
+    color: #777777;
+    border-right: #777777 solid 2px;
+}
+.contactBtn {
+    padding-right: 2px;
+    border-right: none
+}
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: center;
+    background: rgb(100, 99, 99);
+    border-top: 8px solid #4aaaa5
+}
+.copyright {
+    margin-top: 24px;
+}
+img {
+    float: left;
+    width: 195px;
+    margin: 12px;
+}
+hr {
+    border-width: 2px;
+    color: #cccccc;
+    margin: 12px;
+
+}

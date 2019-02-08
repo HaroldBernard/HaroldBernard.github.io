@@ -3,14 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Harold Bernard's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/Portfolio.css">
-    <nav class="navbar">
-        <h1 class="myName">Harold Bernard</h1>
-        <div class="links">
-            <a href="index.html">About /</a>
-            <a href="portfolio.html">Portfolio /</a>
-            <a href="contact.html">Contact</a>
-        <div>
-    </nav>     
+    <link rel="stylesheet" type="text/css" href="assets/css/About.css">  
+    <link rel="stylesheet" type="text/css" href="assets/css/Contact.css">
 </head>
+<header>
+    <nav class="navbar">
+        <Ul>
+            <li><div class="myName">Harold Bernard</div></li>
+            <li><a class="contactBtn" href="contact.html"> Contact </a></li>
+            <li><a href="portfolio.html"> Portfolio </a></li>
+            <li><a href="index.html"> About </a></li>
+        </Ul>
+    </nav>
+</header>   
+<br>
 <body>
+    <div class="main">
+        <h1>Contact</h1>
+        <hr>
+        <div class="contactMe">
+            <!--Action is where the form is going, method is whether by url(get) or secure(push)-->
+            <form name="yourForm" action="" method="">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your full name">
+            
+                <label for="emailaddy">Email Address</label>
+                <input type="email" id="emailaddy" name="emailaddy" placeholder="Email address">
+
+                <label for="contactMessage">Message</label>
+                <textarea type="text" id="contactMessage" name="contactMessage" placeholder="Type message here"></textarea>
+
+                <button class="btn" id="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+<footer>Copyright ©</footer>    

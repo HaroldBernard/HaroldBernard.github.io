@@ -1,40 +1,110 @@
-title {
-    background-color: #4aaaa5
+#froggerGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: black
 }
-body {
-    background: lightgrey;
-    width: 960px;
-    align: center;
+#rpgGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: chocolate;
 }
-.main {
-    background: white;
-    width: 960px;
-    height: 100%;
+#triviaGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: darkolivegreen
 }
-h1, h2 {
-    color: #4aaaa5
+#stanfordGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: red
 }
-.navbar {
-    width: 960px;
-    background: white;
-    border-color: #cccccc;
-    
+#rpsGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+    background-color: skyblue
 }
-p {
-    color: #777777;
+a {
+    text-decoration-line: none
 }
-div.myName {
-    text-align: left;
+#froggerLink {
+    width: 260px;
+    background-color: #4aaaa5;
     color: white;
-    background: #4aaaa5;
-    font-size: 24px;
-    padding: 
+    font-size: 18px;
+    position: relative;
+    padding: 10px 102px;
+    bottom: 25%;
 }
-.links {
-    vertical-align: middle;
-    text-align: right;
-}
-footer {
+#rpgLink {
+    width: 260px;
+    background-color: #4aaaa5;
     color: white;
-    background: rgb(100, 99, 99);
+    font-size: 18px;
+    position: relative;
+    padding: 10px 89px;
+    bottom: 25%;
+}
+#triviaLink {
+    width: 260px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    padding: 10px 85px;
+    bottom: 25%;
+}
+#stanfordLink {
+    width: 260px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    padding: 10px 54px 10px 53px;
+    bottom: 25%;
+}
+#rpsLink {
+    width: 260px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    padding: 10px 57px;
+    bottom: 25%;
+}
+.content1 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    margin: 12px;
+}
+.content2 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    margin: 12px;
+}
+.content3 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    clear: left;
+    margin: 12px;
+}
+.content4 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    margin: 12px;
+}
+.content5 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    clear: left;
+    margin: 12px;
 }
