@@ -11,6 +11,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .navbar {
     width: 960px;
@@ -21,12 +22,12 @@ body {
     justify-content: center;
 }
 .main {
-    background: white;
+    background: whitesmoke;
     overflow: auto;
     width: 960px;
     height: 100%;
     border: 1px solid #cccccc;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-bottom: 48px;
     padding-bottom: 12px;
 }
@@ -40,6 +41,7 @@ p {
     font-size: 20px;
     line-height: 1.6;
     margin-left: 12px;
+    margin-right: 12px;
     font-family: Arial, Helvetica, sans-serif
 }
 div.myName {
@@ -97,3 +99,64 @@ hr {
     margin: 12px;
 
 }
+@media screen and (max-width: 980px) {
+    .main {
+        margin-left: 48px;
+        width: 581px;
+    }
+    .navbar {
+        margin-left: 56px;
+        margin-right: 56px;
+    }
+    body {
+        justify-content: left;
+    }
+}
+@media screen and (max-width: 768px) {
+    img {
+       height: 351px;
+       width: 351px; 
+    }
+    .main {
+        width: 100%;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .navbar {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+    @media screen and (max-width: 640px) {
+        img {
+            height: auto;
+            max-width: 100%;
+            margin: 12px 12px 12px 0px;
+        }
+        .navbar {
+            margin: 0px;
+        }
+        div.myName {
+            text-align: center;
+            float: none;
+        }
+        li a {
+            float: none;
+            display: inline;
+            margin-left: 12px;
+        }
+        li {
+            display: inline;
+        }
+        ul {
+            text-align: center;
+        }
+        .contactBtn {
+            border-right: #777777 solid 2px;
+            padding-right: 16px;
+        }
+        .indexBtn {
+            padding-right: 22px;
+            border-right: none;
+        }
+    }
