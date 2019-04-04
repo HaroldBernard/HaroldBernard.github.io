@@ -28,10 +28,15 @@
     margin: 0px;
     background-color: skyblue
 }
+#textlationGif {
+    height: 160px;
+    width: 260px;
+    margin: 0px;
+}
 a {
     text-decoration-line: none
 }
-#froggerLink, #rpgLink, #stanfordLink, #rpsLink, #triviaLink {
+#froggerLink, #rpgLink, #stanfordLink, #rpsLink, #triviaLink, #textlationLink {
     background-color: #4aaaa5;
     color: white;
     font-size: 18px;
@@ -75,15 +80,21 @@ a {
     clear: left;
     margin: 12px;
 }
+.content6 {
+    height: 161px;
+    width: 261px;
+    float: left;
+    margin: 12px;
+}
 
 @media screen and (max-width: 768px) {
-    .content1, .content2, .content3, .content4, .content5, #froggerGif, #rpgGif, #stanfordGif, #triviaGif, #rpsGif {
+    .content1, .content2, .content3, .content4, .content5, .content6, #froggerGif, #rpgGif, #stanfordGif, #triviaGif, #rpsGif, #textlationGif {
         width: 335px;
         max-width: 100%;
         margin-right: 12px;
         
     }
-    #froggerLink, #rpgLink, #stanfordLink, #rpsLink, #triviaLink {
+    #froggerLink, #rpgLink, #stanfordLink, #rpsLink, #triviaLink, #textlationLink {
         padding: 10px 0px;
         float: inherit;
         bottom: 20%;
@@ -108,13 +119,13 @@ a {
 }
 
 @media screen and (max-width: 640px) {
-    .content1, .content2, .content3, .content4, .content5, #froggerGif, #rpgGif, #stanfordGif, #triviaGif, #rpsGif {
+    .content1, .content2, .content3, .content4, .content5, .content6, #froggerGif, #rpgGif, #stanfordGif, #triviaGif, #rpsGif, #textlationGif {
         height: 260px;
         width: 574px;
         max-width: 100%;
         margin: 12px 0px 0px 0px;
     }
-    #froggerLink, #rpgLink, #stanfordLink, #rpsLink, #triviaLink {
+    #froggerLink, #rpgLink, #stanfordLink, #rpsLink, #triviaLink, #textlationLink {
         padding: 10px 0px;
         float: inherit;
         bottom: 20%;
